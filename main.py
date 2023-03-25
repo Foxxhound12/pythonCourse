@@ -17,3 +17,5 @@ result="{:.2f}".format(round(result, 2))
 #result=round(result,2)
 #result="{:.2f}".format(result)
 print(f"Each person has to pay: ${result}")
+#print(f"Each person has to pay: ${'{:.2f}'.format(round(result, 2))}")
+#print(f"Each person should pay: ${result:.2f}")  !!!!!hier wird automatisch gerundet
