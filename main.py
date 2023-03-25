@@ -1,5 +1,5 @@
 #Data Types
-print("Hello World"[0]) # bei 0 zu zählen beginnen, Leerzeichen zählen auch mit 0=H,1=e...
+print("Hello World"[0]) # bei 0 zu zählen beginnen, Leerzeichen zählen auch mit 0=H,1=e...in der len() Funktion zählen Leerzeichen auch.
 #string is string of characters in ""
 #Integer   ganze Zahl ohne komma  egal ob positvi oder negativ   um sie zu deklarieren einfach so schreiben bzw in print die ganze rechnung ohne ""
 print(123+345)
