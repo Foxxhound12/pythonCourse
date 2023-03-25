@@ -12,4 +12,6 @@ percentage=int(input("How much percent do you want to tip? 10,12 or 15? "))
 persons=int(input("Between how many people do you want to split the bill ? "))
 
 result=(bill/100*percentage+bill)/persons
-print(f"Each person has to pay: ${round(result,2)}")
+result=round(result,2)
+result="{:.2f}".format(round(result, 2))
+print(f"Each person has to pay: ${result}")
