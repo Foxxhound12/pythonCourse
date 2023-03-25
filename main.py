@@ -7,13 +7,9 @@
 
 #Write your code below this line 👇
 
-bill=input("Welcome to the tip calculator!\nHow much is your bill ? ")
-percentage=input("How much percent do you want to tip? 10,12 or 15? ")
-persons=input("Between how many people do you want to split the bill ? ")
+bill=float(input("Welcome to the tip calculator!\nHow much is your bill ? "))
+percentage=int(input("How much percent do you want to tip? 10,12 or 15? "))
+persons=int(input("Between how many people do you want to split the bill ? "))
 
-billf=float(bill)
-percenti=int(percentage)/100+1
-personsi=int(persons)
-
-result=(billf/personsi*percenti)
+result=(bill/100*percentage+bill)/persons
 print(f"Each person has to pay: ${round(result,2)}")
